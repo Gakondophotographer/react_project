@@ -55,7 +55,7 @@ function Nav() {
       </div>
 
       {isMenuOpen && (
-        <div className="md:hidden  bg-gray-800 text-white p-4 space-y-4">
+        <div className="md:hidden dark:bg-red-600 bg-gray-800 text-white p-4 space-y-4">
           <Link to="/" className="block hover:text-gray-400">Home</Link>
           <Link to="/about" className="block hover:text-gray-400">About</Link>
           <Link to="/contact" className="block hover:text-gray-400">Contact</Link>
